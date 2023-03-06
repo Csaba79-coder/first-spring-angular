@@ -21,8 +21,8 @@ public class DataLoader implements ApplicationRunner {
         user.setMidName(null);
         user.setLastName("Vadasz");
         user.setPhoneNumber("+36+30...");
-        user.setJobTitle("Java/Srping backend developer");
+        user.setJobTitle("Java/Spring backend developer");
 
-        // userRepository.save(user);
+        userRepository.save(user);
     }
 }
