@@ -26,6 +26,16 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
 
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.csaba79coder</groupId>
+                <artifactId>first-spring-angular</artifactId>
+                <version>3.0.2</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
     <scm>
         <developerConnection>scm:git:git@github.com:Csaba79-coder/first-spring-angular</developerConnection>
         <tag>HEAD</tag>
